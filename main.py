@@ -1,7 +1,3 @@
-import sys
-sys.path.append("..")
-from MODULO_MENÚ.menu_principal import *
-from MODULO_FUNCIONES.usuario import agregar
+from MODULO_MENÚ.menu_principal import menu
 
-agregar()
-
+menu()

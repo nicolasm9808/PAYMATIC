@@ -1,16 +1,31 @@
 {
-    "employees":[
+    "employees": [
         {
             "id": 1,
-            "name": "Alexis",
-            "last_name": "Hernandez",
+            "name": "alexis",
+            "last_name": "hernandez",
             "num_document": "1042251648",
-            "address": "cuadraplay",
-            "rol": "limpia_piso",
-            "birth_date": "28/02/2024",
-            "phone": 1234567,
-            "entry_date": "28/02/2024",
+            "address": "campus",
+            "rol": "estudiante",
+            "birth_date": "02/10/2004",
+            "phone": 3214123,
+            "entry_date": "02/10/2003",
             "time_work": 1,
+            "daily_salary": 15000,
+            "payout": false,
+            "removed": false
+        },
+        {
+            "id": 2,
+            "num_document": "1",
+            "name": "Felipe ",
+            "last_name": "garcia",
+            "address": "Direcci\u00f3n desconocida",
+            "rol": "oficial",
+            "birth_date": "01/01/2001",
+            "phone": 31298412,
+            "entry_date": "01/01/2024",
+            "time_work": 0,
             "daily_salary": 20000,
             "payout": false,
             "removed": false

@@ -1,0 +1,19 @@
+{
+    "employees":[
+        {
+            "id": 1,
+            "name": "Alexis",
+            "last_name": "Hernandez",
+            "num_document": "1042251648",
+            "address": "cuadraplay",
+            "rol": "limpia_piso",
+            "birth_date": "28/02/2024",
+            "phone": 1234567,
+            "entry_date": "28/02/2024",
+            "time_work": 1,
+            "daily_salary": 20000,
+            "payout": false,
+            "removed": false
+        }
+    ]
+}

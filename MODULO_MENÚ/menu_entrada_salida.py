@@ -1,2 +1,2 @@
-def menu_entrada_salida ():
+def menu_entrada_salida():
     print("z")

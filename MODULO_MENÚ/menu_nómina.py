@@ -1,2 +1,2 @@
-def menu_nómina ():
+def menu_nómina():
     print("x")

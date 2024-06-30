@@ -10,7 +10,7 @@
             "birth_date": "02/10/2004",
             "phone": 3214123,
             "entry_date": "02/10/2003",
-            "time_work": 1,
+            "time_work": 0,
             "daily_salary": 15000,
             "payout": false,
             "removed": false
@@ -18,7 +18,7 @@
         {
             "id": 2,
             "num_document": "1",
-            "name": "Felipe ",
+            "name": "Felipe",
             "last_name": "garcia",
             "address": "Direcci\u00f3n desconocida",
             "rol": "oficial",
@@ -27,7 +27,7 @@
             "entry_date": "01/01/2024",
             "time_work": 0,
             "daily_salary": 20000,
-            "payout": false,
+            "payout": true,
             "removed": false
         }
     ]

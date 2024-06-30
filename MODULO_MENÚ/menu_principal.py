@@ -3,18 +3,19 @@ import sys
 sys.path.append("..")
 
 from MODULO_MENÚ.menu_entrada_salida import menu_entrada_salida
-from MODULO_MENÚ.menu_nómina import menu_nómina
 from MODULO_FUNCIONES.usuario import *
+from MODULO_NOMINA.funciones import *
 
 def menu():
-    print("Bienvenid@ a PayMatic")
-    print("")
+    print("*************************")
+    print("**Bienvenid@ a PayMatic**")
+    print("*************************")
     while True:
         print("")
-        print("1- Modulo Usuarios")
-        print("2- Modulo de Nómina")
-        print("3- Modulo de Entradas/Salidas")
-        print("4- Cerrar Programa")
+        print("1. Modulo Usuarios")
+        print("2. Modulo de Nómina")
+        print("3. Modulo de Entradas/Salidas")
+        print("4. Cerrar Programa")
         print("")
 
         opcion = input("Selecciona una opcion: ")
@@ -28,7 +29,7 @@ def menu():
             menu_entrada_salida()
         elif opcion == "4":
             print("")
-            print("Programa Finalizado")
+            print("Programa Finalizado.")
             break
         else:
             print("")
@@ -44,7 +45,7 @@ def menu_usuario():
         print("2- Modificar usuario")
         print("3- Eliminar usuario")
         print("4- Listar usuarios")
-        print("5- Cerrar Programa")
+        print("5- Regresar")
         print("")
 
         opcion = input("Selecciona una opcion: ")
@@ -62,6 +63,34 @@ def menu_usuario():
             print("")
             print("Regreseando...")
             menu()
+            break
+        else:
+            print("")
+            print("Opción Incorrecta")
+            print("")
+
+def menu_nómina():
+    print("Módulo Nómina")
+    print("")
+    while True:
+        print("")
+        print("1- Informe")
+        print("2- Pagar sueldo")
+        print("3- Regresar")
+        print("")
+
+        opcion = input("Selecciona una opcion: ")
+        print("")
+
+        if opcion == "1":
+            informe()
+        elif opcion == "2":
+            pagar()
+        elif opcion == "3":
+            print("")
+            print("Regreseando...")
+            menu()
+            print("")
             break
         else:
             print("")

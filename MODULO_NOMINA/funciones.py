@@ -63,6 +63,9 @@ def informe():
             RUTA_TXT_EMPLEADO = os.path.join(project_root, "DB", ruta)
 
             escribir_txt(dato, RUTA_TXT_EMPLEADO)
+        else:
+            print(f"El usuario {documento} NO existe")
+            break
 
 def pagar():
     usuario = cargar_datos(RUTA_JSON)
@@ -107,4 +110,7 @@ def pagar():
                 print("El empleado no ha trabajado")
 
             print("")
+            break
+        else:
+            print(f"El usuario {documento} NO existe")
             break

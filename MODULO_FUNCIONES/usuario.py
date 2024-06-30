@@ -300,5 +300,3 @@ def eliminar():
             contador -= 1
     if(contador == 0):
         print("El usuario no existe")
-
-

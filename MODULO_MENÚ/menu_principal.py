@@ -2,8 +2,9 @@ import sys
 
 sys.path.append("..")
 
-from MODULO_MENÚ.menu_entrada_salida import menu_entrada_salida
+
 from MODULO_FUNCIONES.usuario import *
+from MODULO_FUNCIONES.entrada_salida import *
 from MODULO_NOMINA.funciones import *
 
 def menu():
@@ -90,6 +91,31 @@ def menu_nómina():
             print("")
             print("Regreseando...")
             menu()
+            print("")
+            break
+        else:
+            print("")
+            print("Opción Incorrecta")
+            print("")
+
+def menu_entrada_salida():
+    print("-- Ingrese la opcion deseada: --")
+    while True:
+        print("")
+        print("1. Para registrar ingreso")
+        print("2. Para registrar salida")
+        print("3. Para volver al menú anterior")
+        print("")
+
+        opcion = input("Selecciona una opcion: ")
+        print("")
+
+        if opcion == "1":
+            registrar_entrada()
+        elif opcion == "2":
+            registrar_salida()
+        elif opcion == "3":
+            print("")
             print("")
             break
         else:

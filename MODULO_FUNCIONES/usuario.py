@@ -143,6 +143,7 @@ def agregar():
             nuevos_usu["payout"] = estado
 
             nuevos_usu["removed"] = estado
+            nuevos_usu["exit"] = estado
 
 
             usuario["employees"].append(nuevos_usu)
@@ -156,11 +157,11 @@ def modificar():
     
     documento = input("Ingrese el documento: ")
     print("")
-    
+    contador = 0
     for i in usuario["employees"]:
         if(documento in i["num_document"]):
             print("")
-
+            contador += 1
             try:
                 nombre = input("Ingrese el nuevo nombre: ")
                 if not nombre:
@@ -253,9 +254,9 @@ def modificar():
             print("Usuario Actualizado") 
             print("")
             return guardar_datos(usuario, RUTA_JSON)
-        else:
-            print(f"El usuario {documento} NO existe")
-            print("")
+    if contador == 0:
+        print(f"El usuario {documento} NO existe")
+        print("")
         
 def leer():
     usuario = cargar_datos(RUTA_JSON)

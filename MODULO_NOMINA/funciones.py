@@ -13,12 +13,12 @@ FECHA_HOY = date.today()
 
 def informe():
     usuario = cargar_datos(RUTA_JSON)
-
+    contador = 0
     documento = input("Ingrese el documento del empleado: ")
 
     for i in usuario["employees"]:
         if(documento == i["num_document"]):
-
+            contador += 1
             nombre = i["name"]
             apellido = i["last_name"]
             direccion = i["address"]
@@ -63,18 +63,18 @@ def informe():
             RUTA_TXT_EMPLEADO = os.path.join(project_root, "DB", ruta)
 
             escribir_txt(dato, RUTA_TXT_EMPLEADO)
-        else:
-            print(f"El usuario {documento} NO existe")
             break
+    if contador == 0:
+        print(f"El usuario {documento} NO existe")
 
 def pagar():
     usuario = cargar_datos(RUTA_JSON)
-
+    contador = 0
     documento = input("Ingrese el documento del empleado: ")
 
     for i in usuario["employees"]:
         if(documento == i["num_document"]):
-
+            contador+=1
             nombre = i["name"]
             apellido = i["last_name"]
             dias = i["time_work"]
@@ -111,6 +111,6 @@ def pagar():
 
             print("")
             break
-        else:
-            print(f"El usuario {documento} NO existe")
-            break
+    if contador == 0:
+        print(f"El usuario {documento} NO existe")
+    

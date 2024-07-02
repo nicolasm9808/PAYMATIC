@@ -10,10 +10,10 @@
             "birth_date": "02/10/2004",
             "phone": 3214123,
             "entry_date": "02/10/2003",
-            "time_work": 3,
+            "time_work": 0,
             "exit": false,
             "daily_salary": 15000,
-            "payout": false,
+            "payout": true,
             "removed": false
         },
         {
@@ -26,11 +26,26 @@
             "birth_date": "01/01/2001",
             "phone": 31298412,
             "entry_date": "01/01/2024",
-            "time_work": 2,
+            "time_work": 3,
             "exit": false,
             "daily_salary": 20000,
             "payout": false,
             "removed": false
+        },
+        {
+            "id": 4,
+            "num_document": "333",
+            "name": "Andres",
+            "last_name": "Mendoza",
+            "address": "Crr22",
+            "rol": "El subjefe",
+            "birth_date": "20/06/2000",
+            "phone": 32123131231,
+            "entry_date": "01/02/2020",
+            "time_work": 0,
+            "daily_salary": 10000,
+            "payout": false,
+            "removed": true
         }
     ]
 }

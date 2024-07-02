@@ -32,7 +32,7 @@ def registrar_salida():
     print("")
     contador = 0
     for i in usuario["employees"]:
-        if documento == i["num_document"]:
+        if documento == i["num_document"] and i["exit"]:
             contador += 1
             i["time_work"] > 0
             i["exit"] = False

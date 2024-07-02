@@ -30,7 +30,10 @@ def menu():
             menu_entrada_salida()
         elif opcion == "4":
             print("")
-            print("Programa Finalizado.")
+            print(" - - Programa Finalizado. - - ")
+            print("- - Gracias por confiar en nosotros - -")
+            print("- - PAYMATIC a tu servicio - -")
+            
             break
         else:
             print("")

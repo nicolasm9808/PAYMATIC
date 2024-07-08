@@ -1,10 +1,10 @@
 # TABLA DE CONTENIDO
 
-- [Características](##Características)
-- [Tecnologías](##Tecnologías)
-- [Estructura](##Estructura)
-- [Uso](##Uso)
-- [Licencia](##Licencia)
+- [Características](#Características)
+- [Tecnologías](#Tecnologías)
+- [Estructura](#Estructura)
+- [Uso](#Uso)
+- [Licencia](#Licencia)
 
 # PAYMATIC
 

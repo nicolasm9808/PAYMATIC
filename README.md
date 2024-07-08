@@ -1,3 +1,11 @@
+# TABLA DE CONTENIDO
+
+- [Características](##Características)
+- [Tecnologías](##Tecnologías)
+- [Estructura](##Estructura)
+- [Uso](##Uso)
+- [Licencia](##Licencia)
+
 # PAYMATIC
 
 
@@ -11,13 +19,13 @@ Este aplicativo está hecho para automatizar el cálculo de la nómina de los em
 - Facil de utilizar
 - Completado al 100%
 
-## Tecnologías Utilizadas
+## Tecnologías
 
 - Python
 - VS Code
 
 
-## Estructura del Proyecto
+## Estructura
 
 - `BD`: Contiene el json de Usurarios
 - `MODULO_DATOS`: Modulo de Datos y rutas
